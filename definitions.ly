@@ -234,7 +234,9 @@ tempoMarkup =
 %
 
 tempoKyrie = \tempoMarkup "Allegro"
-
+tempoGloria = \tempoMarkup "Andante"
+	tempoQuiTollis = \tempoMarkup "Adagio un poco"
+	tempoQuoniam = \tempoMarkup "Un poco allegro"
 
 
 
