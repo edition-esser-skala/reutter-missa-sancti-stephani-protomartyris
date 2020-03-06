@@ -140,3 +140,41 @@ GloriaTrombaII = {
 		e8 r r\fermata \bar "|." %176 finis
 	}
 }
+
+CredoTrombaII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCredo
+		c'4\fE r8 c g4 r8 g
+		c4 r r2
+		R1*4 %6
+		e,4 r8 e e e16 e e8.-\critnote e16
+		c4 r r2
+		r d'4 d
+		d8 d16 d d8. d16 c4 r %10
+		R1
+		r2 d4 r8 e
+		e d r4 g, r
+		g r g r
+		g r8 d' e4 r %15
+		d e8 e e e16 e d8. d16 \noBreak
+		c8 c16 c g8. g16 e4 r\fermata \bar "||"
+		\tempoEtIncarnatus R1*15 %32
+		R1\fermataMarkup \bar "||" %33
+		\tempoEtResurrexit e'4 r8 e d4 r8 d \noBreak
+		c4 r r2 %35
+		R1*2
+		r4 d8. d16 e8 d e8. e16
+		d4 r r2
+		r4 d8 d d d16 d d8 d %40
+		e e d4 d r8 d
+		e e16 e d8. d16 c4 r
+		R1*16 %58
+		r2 r8 e d-\critnote e
+		e8. e16 d4 r2 %60
+		R1
+		r2 r8 e e d
+		c4 g8. g16 c4 g8. g16
+		e4 r r2\fermata \bar "|." %64 finis
+	}
+}

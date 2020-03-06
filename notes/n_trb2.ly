@@ -177,3 +177,74 @@ GloriaTromboneII = {
 		c8 r r\fermata \bar "|." %176 finis
 	}
 }
+
+CredoTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \tempoCredo
+		r4 r8 g\fE g g d' c16 h
+		c8 c r4 c8 c c c
+		h8. h16 h4 r h8 h16 h
+		c8 c c8. h16 a8. a16 a4-\critnote
+		g8 g h h16 h c8. c,16 c4 %5
+		r a'8 a16 a h8. h16 h4
+		r h c8 c c h
+		a4 r r d8 d
+		d8. d16 d8 d h h g g
+		g g16 g g8. g16 g4 r %10
+		r a h8 h e e16 e
+		c8. h16 a8 e' d4 d8 c
+		c h r4 r r8 g
+		g' f4 e d c8~
+		c h4 a16 h c4 r8 a %15
+		d4 g,8 g g2 \noBreak
+		g4 r r2\fermata \bar "||"
+		\tempoEtIncarnatus r8 e' e e dis8. dis16 dis4 \noBreak
+		r2 r8 d d d16 d
+		cis4 cis r2 %20
+		cis8 cis cis cis d8. d16 d4
+		r2 h
+		c4 c c4. c8~
+		c4 h8. h16 a4 r
+		R1 %25
+		r4 c8 c c4 c
+		c8 c c c b4 b
+		r d des?8. des16 des8 des
+		c4 c h! h
+		d8 d d g, g g g g %30
+		g4. g8 g4 r
+		R1 \noBreak
+		R1\fermataMarkup \bar "||"
+		\tempoEtResurrexit r2 r4 r8 g \noBreak
+		a4 c8 h c16 h c8 r4 %35
+		h h8 h c4 a8 a
+		a4 a r2
+		a4 d c8 d c4
+		h r8 h\p c4. c8
+		d4 d8\f d d d16 d d8 d %40
+		g, g g4 d' r8 d
+		c c h4 c r
+		r2 c8 c c c
+		cis4 cis r2
+		d4 d c c8 c %45
+		c8. c16 c4 r d
+		h!8. h16 h8 h a a a a
+		a8. a16 a4 gis8 a a gis
+		a4 r r8 d d d
+		d8. d16 d8 h a8. a16 a4 %50
+		r2 a8 a a a
+		a a a a h4 h
+		r e8 e d4. d8
+		d d d d cis?2
+		h4 h h c8 c %55
+		c c c c16 c h8. c16 d8 d
+		d d d^\critnote d16 d c4 c8 c
+		h h r h a a r a
+		g g r c d8. e16 d8 c
+		c4 h8 d c c r c %60
+		h h r h a a r a
+		g g r g d' g, g4
+		g h c h
+		c r r2\fermata \bar "|." %64 finis
+	}
+}

@@ -341,6 +341,143 @@ GloriaAltoLyrics = \lyricmode {
 	men. %176 finis
 }
 
+CredoAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoCredo
+		\mvTr e8\fE^\tuttiE g16 f e8 e d d r4
+		g8 g g f16 g a8. a16 a4
+		gis8 gis gis gis e e16 e e8 e
+		e e r4 d8 d d d
+		d4 d r g8 g16 g %5
+		f8 f r4 r f8 f
+		e4 e8 e e e e4
+		e e8. e16 a8 a a4
+		a r d, d
+		d8 d16 d d8. d16 c4 g' %10
+		f a8 a d,8. d16 d4
+		r a' g g8 g
+		g g r h, e[ d h c]
+		h16[ a] h8 r g g' f4 e8~
+		e d4 d8 c4 e8 e %15
+		d4 e8 e e4( d) \noBreak
+		c r r2\fermata \bar "||"
+		\tempoEtIncarnatus r8 a' a a fis8. fis16 fis4 \noBreak
+		r2 r8 f f f16 f
+		e4 e r2 %20
+		e8 e e e gis8. gis16 gis4
+		r2 d
+		dis4 dis fis4. fis8
+		e4. e8 e4 r
+		R1 %25
+		r4 f8 f es4 es
+		es8. es16 es8 es d4 d
+		r g g8. g16 g8 g
+		f4 f d! d
+		f8 f f d d4 c8 c %30
+		c4( h!8.) h16 c4 r
+		R1 \noBreak
+		R1\fermataMarkup \bar "||"
+		\tempoEtResurrexit r2 r4 r8 d \noBreak
+		e4 e8 d e16([ d)] e8 r4 %35
+		e e8 e f4 c8 c
+		c4 c r2
+		f4 g g8 g e4
+		d r8 g\p g4. fis8
+		g4 g8\f g g g16 g g8 g %40
+		g g g4 g r8 g
+		g g g4 g r
+		r2 e8 e e e
+		e4 e r2
+		g4 g g g8 g %45
+		a8. a16 a4 r a
+		gis8. gis16 gis8 gis a a a a
+		f8. f16 f4 e8 e e4
+		e r r8 a a a
+		g!8. g16 g8 e dis8. dis16 dis4 %50
+		r2 e8 e e e
+		fis fis dis dis e4 e
+		r a4. a8 a a
+		g g g g e2
+		fis4 dis e e8 e %55
+		d d d d16 d d4 g8 e
+		e e e e16 e e4 e
+		r8 e( h'16[ a]) h8 r d,( a'16[ g)] a8
+		r c,( g'16[ f)] g8 f g g4
+		g2 r8 f( c'16[ h)] c8 %60
+		r8 e,( h'16[ a)] h8 r d,( a'16[ g)] a8
+		r c,( g'16[ f)] g8 f e e([ d])
+		e4 g g g
+		g r r2\fermata \bar "|." %64 finis
+	}
+}
+
+CredoAltoLyrics = \lyricmode {
+	Pa -- trem o -- mni -- po -- ten -- tem,
+	vi -- si -- bi -- li -- um o -- mni -- um,
+	et [in u -- num Do -- mi -- num,] Je -- sum
+	Chri -- stum, et ex Pa -- tre
+	na -- tum, De -- um de %5
+	De -- o, De -- um
+	ve -- rum de De -- o ve --
+	ro. Ge -- ni -- tum non fa --
+	ctum, per quem
+	o -- mni -- a fa -- cta sunt, qui %10
+	pro -- pter nos ho -- mi -- nes
+	de -- scen -- dit de coe --
+	lis, de -- scen --
+	_ dit, de -- scen -- _ _
+	dit, de -- scen -- dit de %15
+	coe -- lis, de coe --
+	lis.
+	Et in -- car -- na -- tus est
+	de Spi -- ri -- tu
+	San -- cto %20
+	ex Ma -- ri -- a Vir -- gi -- ne,
+	et
+	ho -- mo fa -- ctus,
+	fa -- ctus est.
+	%25
+	Cru -- ci -- fi -- xus
+	e -- ti -- am pro no -- bis
+	sub Pon -- ti -- o Pi --
+	la -- to, pas -- sus,
+	pas -- sus et se -- pul -- tus, se -- %30
+	pul -- tus est.
+
+	Se -- %34
+	cun -- dum Scri -- ptu -- ras, %35
+	se -- det ad dex -- te -- ram
+	Pa -- tris,
+	iu -- di -- ca -- re vi --
+	vos et mor -- tu --
+	os, cu -- ius re -- gni non e -- rit %40
+	fi -- nis, non, non, non
+	e -- rit fi -- nis.
+	Et vi -- vi -- fi --
+	can -- tem,
+	qui cum Pa -- tre et %45
+	Fi -- li -- o, et
+	con -- glo -- ri -- fi -- ca -- tur, qui lo --
+	cu -- tus est per Pro -- phe --
+	tas. Et a -- po --
+	sto -- li -- cam Ec -- cle -- si -- am, %50
+	in re -- mis -- si --
+	o -- nem pec -- ca -- to -- rum,
+	re -- sur -- re -- cti --
+	o -- nem mor -- tu -- o --
+	rum, et vi -- tam ven -- %55
+	tu -- ri sae -- cu -- li, a -- men, ven --
+	tu -- ri sae -- cu -- li, a -- men,
+	a -- men, a -- men,
+	a -- men, a -- men, a --
+	men, a -- men, %60
+	a -- men, a -- men,
+	a -- men, a -- men, a --
+	men, a -- men, a --
+	men. %64 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -209,3 +209,74 @@ GloriaViolinoII = {
 		c4 r8\fermata \bar "|." %176 finis
 	}
 }
+
+CredoViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCredo
+		e4\fE r g8 h16 a g h d g
+		e8 e, r4 f8 a16 g f a c f
+		d8 d, r4 e'8 gis16 fis e gis h e
+		a,8 a, r4 d8 fis16 e d fis a d
+		h8 g, r4 c8 e16 d c e g c %5
+		a8 a, r4 h8 d16 c h d g h
+		gis8 e, r h' c c c h
+		a c16 h a c e a d,8 d, r4
+		d'8 fis16 e d fis a c h8 g, r4
+		h8 d16 c h d g h c,8 c, r4 %10
+		a'8 c16 h a c fis a h,8 h, r4
+		c'8 e16 d c e a^\critnote c d,8 d, r c''
+		c h r h,, e d c d
+		h16 a h8 r g g' f4 \once \tieDashed e8~
+		e d4 d8 c4 e'8 e %15
+		d4 e8 e e4 d \noBreak
+		e16 e d c c8. h16 c4 r\fermata \bar "||"
+		\tempoEtIncarnatus r2 r8 c' c16( a fis dis) \noBreak
+		\slurDashed c( a fis dis) fis( dis c a) \slurSolid gis4 r
+		r8 b'' b16( g e cis) b( g e cis) e( cis b g) %20
+		fis'4 r r8 h' h16( gis f d)
+		h( gis f d) f( d h gis) d''8 d d d
+		dis dis dis dis c c c c
+		c c h h a c'\p c16( a e c)
+		f( d b a) gis( h h, d) \once \slurDashed c( e gis a) a,8 gis %25
+		a4 r r8 c''\f c16( a fis es)
+		c( a fis es) fis( es c a) b8 \once \slurDashed b'' b16( g d b)
+		d( b g d) \once \slurDashed g( d b g) b''( g e! des) g( e des b)
+		as8 as' as16( f c as) f'( d h as) h( as f d)
+		f8 f f d d d c c %30
+		c c h! h c c'' c16(\p g es c)
+		as'( f des c) \slurDashed h( d d, f) es( g h c) \slurSolid c,8 h! \noBreak
+		c c c h! c4 r\fermata \bar "||"
+		\tempoEtResurrexit r2 g'8\fE h16 a g h d g
+		c,8 c, r4 a'8 c16 h a c e a %35
+		h,8 h, r4 a'8 c16 h a c g' b,
+		a8 a, r4 c'8 e16 d c e g c
+		f,8 f, r4 e'8^\critnote f e8. e16
+		d4 r8 g,\p g4 g8 fis
+		g4 g'8\f g g g16 g g8 g %40
+		g g g4 f r8 f
+		e e d4\trill c8 e16 d c e a c
+		e,8 e, r4 a8 c16 h a c e a
+		cis,8 cis, r4 d'8 f16 e d f a d
+		b8 b, r4 c8 e16 d c e g c %45
+		a8 a, r4 d8 f16 e d f a d
+		gis,8 gis, r4 a8 c16 h a c e a
+		f8 f, r f' e16 d c8 h4
+		c8 e16 d c e a^\critnote c a8 a, r4
+		h8 d16 c h d g^\critnote h a8 a, r4 %50
+		g8 h16 a g h e^\critnote g e8 e, r4
+		h'8 dis16 cis h dis fis h e,8 e, r4
+		c'8 e16 d c e a c a8 a, r4
+		h8 d16 c h d g h cis,8 cis cis cis
+		h dis16 cis h dis fis h g8 g, r4 %55
+		a8 c16 h a d fis a h,8 h, r4
+		h'8 d16 c h e gis h c,8 c, r4
+		h'8 d16 c h e g h a8 a, r4
+		g8 h16 a g c e g f8 e d c
+		c4 h r2 %60
+		h8 e16 d e g h h a8 a, r4
+		g8 c16 h c e g g f8 e e d
+		e4 d^\critnote e8 c h4
+		c r r2\fermata \bar "|." %64 finis
+	}
+}
