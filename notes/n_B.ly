@@ -345,6 +345,143 @@ GloriaBassoLyrics = \lyricmode {
 	men. %176 finis
 }
 
+CredoBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoCredo
+		r4 r8 \mvTr c\fE^\tuttiE g' g h a16 g
+		c8 c, r4 a'8 a a a
+		h8. h,16 h4 r gis'8 gis16 gis
+		a8 a a8. g16 fis8. fis16 fis4
+		g8 g g f16 f e8. e16 e4 %5
+		r f8 f16 f d8. d16 d4
+		r e c8 a e'4
+		a, r r fis'8 fis
+		fis8. fis16 fis8 fis g g g g
+		f f16 f f8. f16 e4 r %10
+		r fis g8 g gis gis16 gis
+		a8.([ gis16)] a8 a h4 h8 c
+		g g, r4 g'2
+		g g4 g
+		g g8 g, c a4 g16([ fis)] %15
+		g8([ g')] e c g'4( g,) \noBreak
+		c r r2\fermata \bar "||"
+		\tempoEtIncarnatus r8 a' a a a8. a16 a4 \noBreak
+		r2 r8 gis gis gis16 gis
+		g4 g r2 %20
+		fis8 fis fis fis f8. f16 f4
+		r2 f
+		f4 f dis4. dis8
+		e4. e8 a,4 r
+		R1 %25
+		r4 f8 f fis4 fis
+		fis8. fis16 fis8 fis g4 g
+		r g' e!8. e16 e8 e
+		f!4 f f f
+		h,!8. h16 h8 h c4 c8 c %30
+		g4. g8 c4 r
+		R1 \noBreak
+		R\fermataMarkup \bar "||"
+		\tempoEtResurrexit r2 r4 r8 h' \noBreak
+		a4 a8 gis a a, r4 %35
+		g'4 g8 g f4 f8 e
+		f4 f, r2
+		d'4 h c8 h c16([ d e f)]
+		g4 r8 g\p as4. as8
+		g4 g8\f g f f16 f f8 f %40
+		e c h4 g r8 h
+		c e16([ f)] g8([ g,)] c4 r
+		r2 a'8 a a a
+		g!4 g r2
+		g4 g e e8 e %45
+		f8. f,16 f4 r d'
+		e8. e16 e8 d c c c c
+		d8. d16 d4 e8 a, e'4
+		a, r r8 fis' fis fis
+		g!8. g16 g8 g fis8. fis16 fis4 %50
+		r2 c8 c c c
+		h h h h g4 g
+		r a'8 a fis4. fis8
+		g g g g g4( fis8[ e)]
+		dis4 r8 h e4 e8 e %55
+		fis fis fis fis16 fis g4 g8 g
+		gis gis gis gis16 gis a4 a8 a(
+		g) g, r g'( f) f, r f'(
+		e) e, r e'( d[ c h)] c
+		g'4 g,8 h'( a) a, r a'( %60
+		g) g, r g'( f) f, r f'(
+		e) e, r e'( d) c g'([ g,)]
+		c4 g' c g
+		c, r r2\fermata \bar "|." %64 finis
+	}
+}
+
+CredoBassoLyrics = \lyricmode {
+	Fa -- cto -- rem coe -- li et
+	ter -- rae, et in -- vi -- si --
+	bi -- li -- um, Fi -- li -- um
+	De -- i u -- ni -- ge -- ni -- tum,
+	an -- te o -- mni -- a sae -- cu -- la, %5
+	Lu -- men de Lu -- mi -- ne,
+	de De -- o ve --
+	ro. Con -- sub --
+	stan -- ti -- a -- lem Pa -- tri, per quem
+	o -- mni -- a fa -- cta sunt, %10
+	et pro -- pter no -- stram sa --
+	lu -- tem de -- scen -- dit de
+	coe -- lis, de --
+	scen -- dit de
+	coe -- lis, de -- scen -- dit, de -- %15
+	scen -- dit de coe --
+	lis.
+	Et in -- car -- na -- tus est
+	de Spi -- ri -- tu
+	San -- cto %20
+	ex Ma -- ri -- a Vir -- gi -- ne,
+	et
+	ho -- mo fa -- ctus,
+	fa -- ctus est.
+	%25
+	Cru -- ci -- fi -- xus
+	e -- ti -- am pro no -- bis
+	sub Pon -- ti -- o Pi --
+	la -- to, pas -- sus,
+	pas -- sus et se -- pul -- tus, se -- %30
+	pul -- tus est.
+
+	Se -- %34
+	cun -- dum Scri -- ptu -- ras, %35
+	se -- det ad dex -- te -- ram
+	Pa -- tris,
+	iu -- di -- ca -- re vi --
+	vos et mor -- tu --
+	os, cu -- ius re -- gni non e -- rit %40
+	fi -- nis, non, non, non
+	e -- rit fi -- nis.
+	Et vi -- vi -- fi --
+	can -- tem,
+	qui cum Pa -- tre et %45
+	Fi -- li -- o, et
+	con -- glo -- ri -- fi -- ca -- tur, qui lo --
+	cu -- tus est per Pro -- phe --
+	tas. Et a -- po --
+	sto -- li -- cam Ec -- cle -- si -- am, %50
+	in re -- mis -- si --
+	o -- nem pec -- ca -- to -- rum,
+	re -- sur -- re -- cti --
+	o -- nem mor -- tu -- o --
+	rum, et vi -- tam ven -- %55
+	tu -- ri sae -- cu -- li, a -- men, ven --
+	tu -- ri sae -- cu -- li, a -- men, a --
+	men, a -- men, a --
+	men, a -- men,
+	a -- men, a -- men, a -- %60
+	men, a -- men, a --
+	men, a -- men, a --
+	men, a -- men, a --
+	men. %64 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

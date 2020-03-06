@@ -210,6 +210,77 @@ GloriaViolinoI = {
 	}
 }
 
+CredoViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCredo
+		c'8\fE e16 d c e g c h8 g, r4
+		c8^\critnote e16 d c e g c f,8 f, r4
+		h8 d16 c h d gis h e,8 e, r4
+		a8 c16 h a c e a d,8 d, r4
+		g8 h16 a g h d g c,8 c, r4 %5
+		f8 a16 g f a c f h,8 h, r4
+		e8 gis16 fis e gis h e a8 a a gis
+		a4 r d,8 fis16 e d fis a d
+		c8 fis,, r4 h8 d16 c h d g h
+		h,8 g, r4 c'8 e16 d c e g c %10
+		a8 f, r4 h8 d16 c h d gis h
+		c,8 c, r4 d'8 f16 e d g e c'
+		e,8 d r g, g' f4 e8~
+		e d4 c h a8~
+		a g4 f8 e4 c''8 c %15
+		h4 c8 c c4 h \noBreak
+		c16 g f e d8.\trill d16 c4 r\fermata \bar "||"
+		\tempoEtIncarnatus r2 r8 c' c16( a fis dis) \noBreak
+		c( a fis dis) fis( dis c a) gis4 r
+		r8 b'' b16( g e cis) b( g e cis) e( cis b g) %20
+		fis'4 r r8 h' h16( gis f d)
+		h( gis f d) f( d h gis) gis''8 gis gis gis
+		a a a a a a a a
+		a a gis gis a c\p c16( a e c)
+		f( d b a) gis( h h, d) \once \slurDashed c( e gis a) c,8 h\trill %25
+		a4 r r8 c''\f c16( a fis es)
+		c( a fis es) fis( es c a) b8 b'' b16( g d b)
+		d( b g d) \once \slurDashed g( d b g) b''( g e! des) g(^\critnote e des b)
+		as8 as' as16( f c as) f'( d h as) h( as f d)
+		as'8 as g f f f es es %30
+		es es d d c c'' c16(\p g es c)
+		\once \slurDashed as'( f des c) h( d) d,( f) \once \slurDashed es( g h c) es,8 d\trill \noBreak
+		\once \slurDashed c16( c' fis, g) es8 d\trill c4 r\fermata \bar "||"
+		\tempoEtResurrexit c'8\fE e16 d c e g c g8 g, r4 \noBreak
+		c8 e16 d c e h' d, c8 c, r4 %35
+		e8 g16 f e g h e a,8 a, r4
+		f'8 a16 g f a c f g,8 g, r4
+		d''8 f16 e d g h d c8 d c8.\trill c16
+		h8 d,\p es4. d8 c c
+		h4 h8\f h c d16 d h d g h %40
+		c8 c d4 d r8 d
+		c c h4 c r
+		e,8 gis16 fis e gis h d, c8 c, r4
+		a'8 cis16 h a cis e a d,8 d, r4
+		b'8 d16 c b d g b c,8 c, r4 %45
+		a'8 c16 b a c f a f8 f, r4
+		e'8 gis16 fis e gis h e a,8 a, r4
+		d8 f16 e d f a d gis,8 a a gis
+		a4 r d,8 fis16 e d fis a d
+		h8 h, r4 a8 c16 h a c dis fis %50
+		g,8 g, r4 a'8 c16 h a c e a
+		dis,8 dis, r4 e'8 g16 fis e g h e
+		c8 c, r4 d8 fis16 e d fis a d
+		h8 h, h' h ais ais ais ais
+		h4 r g,8 h16 a g c e g %55
+		a,8 a, r4 h'8 d16 c h e g h
+		h,8 h, r4 c'8 e16 d c e a c
+		h8 h, r4 a8 c16 h a d f a
+		g8 g, r c h c f e
+		e4 d8 d c f16 e f a c c %60
+		h8 h, r4 a8 d16 c d f a a
+		g8 g, r c' h c c h
+		c4 h c8 e, d4\trill
+		c r r2\fermata \bar "|." %64 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

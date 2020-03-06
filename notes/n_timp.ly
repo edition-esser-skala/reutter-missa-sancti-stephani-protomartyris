@@ -120,3 +120,37 @@ GloriaTimpani = {
 		c4 r8\fermata \bar "|." %176 finis
 	}
 }
+
+CredoTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoCredo
+		c4\fE r8 c g4 r8 g
+		c4 r r2
+		R1*6 %8
+		r2 g4 r
+		R1*3 %12
+		g4 r8 g g4 g8 g16 g
+		g4 r8 g g4 g8 g16 g
+		g8 g16 g g4 c8 r r4 %15
+		g8 g16 g c8 c g g16 g g8 g
+		c c16 c g8 g c4 r\fermata \bar "||"
+		\tempoEtIncarnatus R1*15 %32
+		R1\fermataMarkup \bar "||" %33
+		\tempoEtResurrexit c4 r8 c g g r g
+		c4 r r2 %35
+		R1*2
+		r4 g c8 g16 g c8 c16 c
+		g4 r r2
+		g8 g r g g g g4 %40
+		c8 c16 c g g g8 g8 g16 g g g g g
+		c 8 c16 c g8 g c4 r
+		R1*16 %58
+		r2 r8 c g16 g c8
+		g4 r16 g g g r2 %60
+		R1
+		r2 r8 c g16 g g g
+		c8 c16 c g8 g16 g c c c c g g g g
+		c4 r r2\fermata \bar "|." %64 finis
+	}
+}

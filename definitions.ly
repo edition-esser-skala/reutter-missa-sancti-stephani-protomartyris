@@ -117,8 +117,8 @@ solo = \markup { \remark Solo }
 soloE = \markup { \remarkE Solo }
 tutti = \markup { \remark Tutti }
 tuttiE = \markup { \remarkE Tutti }
-tasto = \markup { \remark "taſto ſolo" }
-tastoE = \markup { \remarkE "taſto ſolo" }
+tasto = \markup { \remark "tasto solo" }
+tastoE = \markup { \remarkE "tasto solo" }
 org = \markup { \remark Org. }
 orgE = \markup { \remarkE Org. }
 vlc = \markup { \remark "Vlc." }
@@ -128,10 +128,13 @@ bassiE = \markup { \remarkE Bassi }
 vlne = \markup { \remark "Vlne." }
 tenuto = \markup { \remark ten. }
 tenutoE = \markup { \remarkE ten. }
-unisono = \markup { \remark "uniſono" }
-unisonoE = \markup { \remarkE "uniſono" }
+unisono = \markup { \remark "unisono" }
+unisonoE = \markup { \remarkE "unisono" }
 pizz = \markup { \remark "pizz." }
 arco = \markup { \remark "arco" }
+senzaOrg = \markup { \remark "senza Org." }
+colOrg = \markup { \remark "col’Org." }
+colOrgE = \markup { \remarkE "col’Org." }
 
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
@@ -237,6 +240,9 @@ tempoKyrie = \tempoMarkup "Allegro"
 tempoGloria = \tempoMarkup "Andante"
 	tempoQuiTollis = \tempoMarkup "Adagio un poco"
 	tempoQuoniam = \tempoMarkup "Un poco allegro"
+tempoCredo = \tempoMarkup "[Allegro]"
+	tempoEtIncarnatus = \tempoMarkup "Adagio"
+	tempoEtResurrexit = \tempoMarkup "Allegro"
 
 
 
