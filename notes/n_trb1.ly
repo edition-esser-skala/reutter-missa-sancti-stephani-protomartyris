@@ -246,3 +246,30 @@ CredoTromboneI = {
 		g r r2\fermata \bar "|." %64 finis
 	}
 }
+
+SanctusTromboneI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSanctus
+		R1*2
+		g'4.\fE c8 f,4. g16 f
+		e8 e fis8. fis16 g4 r
+		e8. e16 d4 d8 d d8. d16 %5
+		c4 r a'4. a8
+		g8 g16 g g f e8 e4-\critnote d8. d16
+		c4 r r2
+		R1*2 %10
+		r8 g' a g16 f g8 g r4
+		r8 d e d16 c d8 d h' h16 h
+		a8 gis r4 r8 e e4
+		e r r8 g8 g f
+		f[ e8. e16] d4 c8 c h %15
+		d c16 c c8 h a4 r8 a'
+		a8. a16 a8 a a a r a
+		g8. g16 g8 g g g r e
+		d d r g g g r g
+		g8. g16 g8 g g g g g %20
+		g2 g4 g8 g
+		f2 e\fermata \bar "|." %22 finis
+	}
+}

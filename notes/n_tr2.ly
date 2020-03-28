@@ -178,3 +178,27 @@ CredoTrombaII = {
 		e4 r r2\fermata \bar "|." %64 finis
 	}
 }
+
+SanctusTrombaII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSanctus
+		R1*6 %6
+		d'8.\fE d16 e8. e16 e d c d g,8. g16
+		e4 r r2
+		R1
+		r2 \tempoPleni c'4 r %10
+		c r c8 g r4
+		d' r d r
+		e, r e r
+		e r r2
+		R1 %15
+		r8 e e8. e16 e4 r
+		R1
+		d'8. d16 d8 d c4 r8 e
+		d4 r8 d e4 r8 e
+		d8. d16 d8 d d d16 d e d c c %20
+		c8 g16 e g8.-\critnote g16 e4 c8 c
+		c2 c\fermata \bar "|." %22 finis
+	}
+}

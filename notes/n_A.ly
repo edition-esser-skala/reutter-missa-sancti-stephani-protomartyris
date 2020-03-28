@@ -478,6 +478,55 @@ CredoAltoLyrics = \lyricmode {
 	men. %64 finis
 }
 
+SanctusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoSanctus
+		R1*2
+		\mvTr g'4.\fE^\tuttiE c8 f,4. g16 f
+		e8 e fis8. fis16 g4 r
+		e8. e16 d4 d8 d d8. d16 %5
+		c4 r a'4. a8
+		g8 g16 g g([ f)] e8 e4( d8.) d16
+		c4 r r2
+		R1*2 %10
+		r8 g' a g16 f g8 g r4
+		r8 d e d16 c d8 d h' h16 h
+		a8 gis r4 r8 e e4
+		e r r8 g8. g16 f8~
+		f e8. e16 d4 c8. c16 h8 %15
+		d c16 c c8([ h)] a4 r8 a'
+		a8. a16 a8 a a a r a
+		g8. g16 g8 g g g r e
+		d d r g g g r g
+		g8. g16 g8 g g g g g %20
+		g2 g4 g8 g
+		f2 e\fermata \bar "|." %22 finis
+	}
+}
+
+SanctusAltoLyrics = \lyricmode {
+	San -- ctus Do -- mi -- nus %3
+	De -- us Sa -- ba -- oth,
+	Do -- mi -- nus De -- us Sa -- ba -- %5
+	oth, san -- ctus
+	Do -- mi -- nus De -- us Sa -- ba --
+	oth.
+
+	Sunt coe -- li et ter -- ra, %11
+	sunt coe -- li et ter -- ra glo -- ri -- a
+	tu -- a, et ter --
+	ra glo -- ri -- a, __
+	glo -- ri -- a, glo -- ri -- a, %15
+	glo -- ri -- a tu -- a. O --
+	san -- na in ex -- cel -- sis, o --
+	san -- na in ex -- cel -- sis, o --
+	san -- na, o -- san -- na, o --
+	san -- na in ex -- cel -- sis, in ex -- %20
+	cel -- sis, in ex --
+	cel -- sis. %22 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

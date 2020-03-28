@@ -482,6 +482,55 @@ CredoTenoreLyrics = \lyricmode {
 	men. %64 finis
 }
 
+SanctusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoSanctus
+		R1*2
+		r4 \mvTr c4.\fE^\tutti d16 a h4(
+		c8) h a8. a16 g4 h(
+		a) a g g %5
+		g( c4.) a8 f' f16 e
+		d8 d g, g g4. g8
+		g4 r r2
+		R1*2 %10
+		r2 r8 g h d
+		g4 g8 g g g, d' d16 d
+		c8 h r4 r8 h c h16 a
+		h([ a)] gis8 r4 c16[ c d c] h[ h c h]
+		a[ a h a] g[ g a g] f[ f g f] e[ e f e] %15
+		d8 e16 e e4 e r8 e'
+		e8. e16 e8 e a, a r a
+		d8. d16 d8 d g, g r g
+		g g r g g g r g
+		d'8. d16 d8 d d d c c %20
+		c4( h) c c8 c
+		c2 c\fermata \bar "|." %22 finis
+	}
+}
+
+SanctusTenoreLyrics = \lyricmode {
+	Do -- mi -- nus De -- %3
+	us Sa -- ba -- oth, san --
+	ctus, san -- ctus %5
+	san -- ctus Do -- mi -- nus
+	De -- us, De -- us Sa -- ba --
+	oth.
+
+	Ple -- ni sunt %11
+	coe -- li et ter -- ra glo -- ri -- a
+	tu -- a, sunt coe -- li et
+	ter -- ra glo -- _
+	_ _ _ _ %15
+	_ ri -- a tu -- a. O --
+	san -- na in ex -- cel -- sis, o --
+	san -- na in ex -- cel -- sis, o --
+	san -- na, o -- san -- na, o --
+	san -- na in ex -- cel -- sis, in ex -- %20
+	cel -- sis, in ex --
+	cel -- sis. %22 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

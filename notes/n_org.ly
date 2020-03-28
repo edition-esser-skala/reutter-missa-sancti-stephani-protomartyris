@@ -768,6 +768,61 @@ CredoBassFigures = \figuremode {
 	r %64 finis
 }
 
+SanctusOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoSanctus
+		R1*2
+		\clef "treble" << {
+			g''4. c8 f,4. g16 f
+			e4 fis g
+		} \\ {
+			r4 c,4. d16 a h4
+			c8 h a8. a16 g4
+		} >> \clef bass \once \tieDashed g~
+		g8 a16 e fis4 g f %5
+		e c f2~
+		f8 g16 f e8 c g g g g
+		c4 r r2
+		R1
+		r2 \tempoPleni c4 r %10
+		c'2 c8 g r4
+		g, r g' gis
+		a8 e r4 e8 gis a gis16 fis
+		gis fis? e8 r4 a16 a h a g? g a g
+		f f g f e e f e d d e d c c d c %15
+		h8 a e' e, a a'16 gis a8 a,
+		g' g g g f4 r8 f
+		f f f f e e r c
+		h4 r8 h c4 r8 c
+		h h h h h a16 g c8 e16 f %20
+		g8 g g, g c4 e8 c
+		f2 c\fermata \bar "|." %22 finis
+	}
+}
+
+SanctusBassFigures = \figuremode {
+	r1*4
+	<4 2>4 <[6 5]> r <[2]> %5
+	<[6]>2 <7>4 <[6]>
+	<[2]> <[6]> <6 4> <5 [4]>8 <[\t 3]>
+	r1
+	r
+	r %10
+	<5 3>4 <6 4> <[5 3]>2
+	r2. <[6 5]>4
+	r8 <_+>4. <[_+]>2
+	<[6]>8 <[_+]>4. <6>4 q
+	q q q q %15
+	<6\\> <[6] 4>8 <[5] _+> r2
+	<4+>2 <6>
+	<4> <6>
+	<[6]>1
+	<[6 5]> %20
+	<6 4>4 <5 3> r <[6]>
+	r1 %22 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

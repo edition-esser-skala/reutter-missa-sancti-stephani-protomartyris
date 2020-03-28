@@ -154,3 +154,23 @@ CredoTimpani = {
 		c4 r r2\fermata \bar "|." %64 finis
 	}
 }
+
+SanctusTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoSanctus
+		R1*6 %6
+		r8 g\fE c c16 c g4 g16 g g g
+		c4 r r2
+		R1
+		r2 \tempoPleni c4 r %10
+		c r c8 g r4
+		g r g r
+		R1*5 %17
+		r2 c4 r8 c
+		g4 r8 g c4 r8 c
+		g g g g16 g g8 g c c %20
+		g g g g c c16 c c8 c
+		r4 g16 g g g c8 c c4\fermata \bar "|." %22 finis
+	}
+}

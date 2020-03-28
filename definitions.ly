@@ -97,15 +97,13 @@
     #{\markup \small \italic #text #}))
 
 movementTitle = #(define-scheme-function
-  (parser location number title subtitle)
-  (string? string? string?)
+  (parser location number title)
+  (string? string?)
   #{
 		 \markup {
-			 \with-color #(rgb-color .8313 0 0) { \fontsize #-4 #title }
+			 \with-color #(rgb-color .8313 0 0) { #number }
 			 \hspace #3
-			 #number
-			 \hspace #1
-			 #subtitle
+			 #title
 		 }
 	#}
 )
@@ -243,6 +241,8 @@ tempoGloria = \tempoMarkup "Andante"
 tempoCredo = \tempoMarkup "[Allegro]"
 	tempoEtIncarnatus = \tempoMarkup "Adagio"
 	tempoEtResurrexit = \tempoMarkup "Allegro"
+tempoSanctus = \tempoMarkup "Larghetto"
+	tempoPleni = \tempoMarkup "Allegro"
 
 
 

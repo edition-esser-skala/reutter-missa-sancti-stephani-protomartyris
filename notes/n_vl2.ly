@@ -280,3 +280,32 @@ CredoViolinoII = {
 		c r r2\fermata \bar "|." %64 finis
 	}
 }
+
+SanctusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSanctus
+		r4 c'4.\p d16 a h4
+		c8 g a e f4 fis
+		g4.\fE c8 f,4. g16 f
+		e8 e fis8. fis16 g4 r
+		e8. e16 d4 d8 d d8. d16 %5
+		c4 r a'4. a8
+		g8 g g16 f e8 e e d8. d16
+		c4 r c'4.\p d16 a
+		h4 c8 g a e f fis
+		g e f g \tempoPleni c, c\f e g %10
+		c g a g16 f g8 g, h d
+		g d e d16 c d8 d h' h
+		a gis gis h e4 e8 e
+		e e e e16 e f8 g, g f^\critnote
+		f e e d d c c h %15
+		d c c h a4 r8 a'
+		a8. a16 a8 a d16( e32 f g a h cis) d16 a f a
+		h,8. h16 h8 h c!16( d32 e f g a h) c16 g e g
+		g,( a32 h c d e f) g16 d h d e,32( c d e f g a h) c16 g e c'
+		d( e32 f g a h c) d16 f, d f g,32( a h c d e f g) e8 e %20
+		e e d d c4 g8 g
+		f2 e\fermata \bar "|." %22 finis
+	}
+}
