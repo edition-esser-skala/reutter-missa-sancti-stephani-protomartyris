@@ -256,81 +256,157 @@
 	% 		\midi { \tempo 4 = 110 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		movement = \movementTitle "4" "S A N C T U S"
+	% 	}
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new Staff \with { \trombaStaffDistance } <<
+	% 					\set Staff.instrumentName = \markup { \center-column { "Clarino I, II" "in C" } }
+	% 					\partcombine \SanctusTrombaI \SanctusTrombaII
+	% 				>>
+	% 				\new GrandStaff <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Trombone I"
+	% 						\SanctusTromboneI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Trombone II"
+	% 						\SanctusTromboneII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = \markup { \center-column { "Timpani" "in C–G" } }
+	% 				\SanctusTimpani
+	% 			}
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino I"
+	% 						\SanctusViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino II"
+	% 						\SanctusViolinoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Soprano"
+	% 					\new Voice = "Soprano" { \dynamicUp \SanctusSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \SanctusSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Alto"
+	% 					\new Voice = "Alto" { \dynamicUp \SanctusAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \SanctusAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Tenore"
+	% 					\new Voice = "Tenore" { \dynamicUp \SanctusTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \SanctusTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Basso"
+	% 					\new Voice = "Basso" { \dynamicUp \SanctusBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \SanctusBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "Violone" "e Organo" } }
+	% 					\SanctusOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass {
+	% 				\SanctusBassFigures
+	% 			}
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 60 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			movement = \movementTitle "4" "S A N C T U S"
+			movement = \movementTitle "5" "B E N E D I C T U S"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff \with { \trombaStaffDistance } <<
 						\set Staff.instrumentName = \markup { \center-column { "Clarino I, II" "in C" } }
-						\partcombine \SanctusTrombaI \SanctusTrombaII
+						\partcombine \BenedictusTrombaI \BenedictusTrombaII
 					>>
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Trombone I"
-							\SanctusTromboneI
+							\BenedictusTromboneI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Trombone II"
-							\SanctusTromboneII
+							\BenedictusTromboneII
 						}
 					>>
 				>>
 				\new Staff {
 					\set Staff.instrumentName = \markup { \center-column { "Timpani" "in C–G" } }
-					\SanctusTimpani
+					\BenedictusTimpani
 				}
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\SanctusViolinoI
+							\BenedictusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\SanctusViolinoII
+							\BenedictusViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \SanctusSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \BenedictusSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \SanctusSopranoLyrics
+					\new Lyrics \lyricsto Soprano \BenedictusSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \SanctusAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \BenedictusAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \SanctusAltoLyrics
+					\new Lyrics \lyricsto Alto \BenedictusAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \SanctusTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \BenedictusTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \SanctusTenoreLyrics
+					\new Lyrics \lyricsto Tenore \BenedictusTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \SanctusBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \BenedictusBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \SanctusBassoLyrics
+					\new Lyrics \lyricsto Basso \BenedictusBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Violone" "e Organo" } }
-						\transpose c c,
-						\SanctusOrgano
+						\BenedictusOrgano
 					}
 				>>
 				\new FiguredBass {
-					\SanctusBassFigures
+					\BenedictusBassFigures
 				}
 			>>
-			% \layout { }
+			\layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
 			\midi { \tempo 4 = 60 }
 		}
 	}

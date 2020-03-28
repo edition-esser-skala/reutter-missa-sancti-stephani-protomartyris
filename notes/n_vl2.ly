@@ -309,3 +309,18 @@ SanctusViolinoII = {
 		f2 e\fermata \bar "|." %22 finis
 	}
 }
+
+BenedictusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoBenedictus
+		R1*30 %30
+		r2 \tempoPleni r4 r8 a'\fE
+		a8. a16 a8 a d16( e32 f g a h cis) d16 a f a
+		h,8. h16 h8 h c!16( d32 e f g a h) c16 g e g
+		g,( a32 h c d e f) g16 d h d e,32( c d e f g a h) c16 g e c'
+		d( e32 f g a h c) d16 f, d f g,32( a h c d e f g) e8 e %35
+		e e d d c4 g8 g
+		f2 e\fermata \bar "|." %37 finis
+	}
+}

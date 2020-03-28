@@ -275,3 +275,18 @@ SanctusTromboneII = {
 		c2 c\fermata \bar "|." %22 finis
 	}
 }
+
+BenedictusTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \minor \time 4/4 \tempoBenedictus
+		R1*30 %30
+		r2 \tempoOsanna r4 r8 e\fE
+		e8. e16 e8 e a, a r a
+		d8. d16 d8 d g, g r g
+		g g r g g g r g
+		d'8. d16 d8 d d d c c %35
+		c4 h c c8 c
+		c2 c\fermata \bar "|." %37 finis
+	}
+}

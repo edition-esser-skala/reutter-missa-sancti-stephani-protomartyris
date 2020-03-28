@@ -527,6 +527,31 @@ SanctusAltoLyrics = \lyricmode {
 	cel -- sis. %22 finis
 }
 
+BenedictusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \autoBeamOff \tempoBenedictus
+		R1*30 %30
+		r2 \tempoOsanna r4 r8 \mvTr a'\fE^\tuttiE
+		a8. a16 a8 a a a r a
+		g8. g16 g8 g g g r e
+		d d r g g g r g
+		g8. g16 g8 g g g g g %35
+		g2 g4 g8 g
+		f2 e\fermata \bar "|." %37 finis
+	}
+}
+
+BenedictusAltoLyrics = \lyricmode {
+	O -- %31
+	san -- na in ex -- cel -- sis, o --
+	san -- na in ex -- cel -- sis, o --
+	san -- na, o -- san -- na, o --
+	san -- na in ex -- cel -- sis, in ex -- %35
+	cel -- sis, in ex --
+	cel -- sis. %37 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

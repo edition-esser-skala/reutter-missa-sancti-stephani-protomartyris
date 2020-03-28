@@ -202,3 +202,16 @@ SanctusTrombaII = {
 		c2 c\fermata \bar "|." %22 finis
 	}
 }
+
+BenedictusTrombaII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoBenedictus
+		R1*32 %32
+		d'8.\fE d16 d8 d c4 r8 e
+		d4 r8 d e4 r8 e
+		d8. d16 d8 d d d16 d e d c c %20
+		c8 g16 e g8. g16 e4 c8 c
+		c2 c\fermata \bar "|." %22 finis
+	}
+}

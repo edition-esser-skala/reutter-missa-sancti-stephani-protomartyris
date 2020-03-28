@@ -199,6 +199,19 @@ SanctusTrombaI = {
 		g4 r8 g g4 r8 g
 		g8.^\critnote g16 g8 g g g16 g g f e d %20
 		e8 d16 c d8. d16 c4 c8 c
-		c2 c\fermata \bar "|."
+		c2 c\fermata \bar "|." %22 finis
+	}
+}
+
+BenedictusTrombaI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoBenedictus
+		R1*32 %32
+		g''8. g16 g8 g g4 r8 g
+		g4 r8 g g4 r8 g
+		g8. g16 g8 g g g16 g g f e d %35
+		e8 d16 c d8. d16 c4 c8 c
+		c2 c\fermata \bar "|." %37 finis
 	}
 }

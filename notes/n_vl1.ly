@@ -310,6 +310,49 @@ SanctusViolinoI = {
 	}
 }
 
+BenedictusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoBenedictus
+		\once \tieDashed a''4~\fE a32 g( f e d c h a) \appoggiatura dis8 e4~ e32 d( c h a gis? fis e)
+		h''4~ h32 a( gis fis e d c h) c16\trill h32 c d16[\trill c32 d] e16[\trill d32 e] f16. a,32
+		a8 gis r e' \appoggiatura e f4 d'32( c h a g f e d)
+		\appoggiatura dis8 e4 c'32( h a g f e d c) \appoggiatura cis8 d4 h'32( a gis fis e d c h)
+		c[ a gis a] a' d, c h h4\trill a r %5
+		r2 a'4~\fE a32 g( f e d c h a)
+		h'4~ h32 a( gis fis e d c h) c d e gis, a8 r e'\pE
+		\appoggiatura e f4 d'32( c h a g f e d) \appoggiatura dis8 e4 c'32( h a g f e d c)
+		\appoggiatura cis8 d4 h'32( a g f e d c h) c,4 r
+		R1 %10
+		r2 c''4~\fE c32 h( a g f e d c)
+		\appoggiatura fis8 g4~ g32( f e d c h a g) d''4~ d32 c( h a g f e d)
+		e16[\trill d32 e] f16\trill e32 f g16[\trill f32 g] a16. c,32 c8\trill h r g'
+		a4~ a32 g( f e d c h a) h'4~ h32 a( g f e d c h)
+		c'4~ c32 h( a g f e d c) d'4~ d32 c( h a g f e d) %15
+		e'( c h c) c( a f d) d4\trill c r
+		r2 c'4~\fE c32 h( a g f e d c)
+		d'4~ d32 c( h a g f e d) e c h c c,8 r4
+		R1*2 %20
+		r4 r8 e'\pE \appoggiatura e f4^\critnote d'32( c h a g f e d)
+		\appoggiatura dis8 e4 c'32( h a g f e d c) \appoggiatura cis8 d4 h'32( a gis fis e d c h)
+		\appoggiatura h8 c4 r r2
+		R1
+		a'4~\fE a32 g( f e d c h a) \appoggiatura dis8 e4~ e32 d( c h a gis fis e) %25
+		h''4~ h32 a( gis fis e d c h) c16[\trill h32 c] d16[\trill c32 d] e16[\trill d32 e] f16. a,32
+		a8 gis r e' \appoggiatura e f4~ f32 e( d c h a g fis)
+		\appoggiatura fis'?8 g4 gis32( fis e d c h a gis) \appoggiatura gis'8 a4 h32( a gis fis e d c h)
+		\appoggiatura h'8 c4^\critnote e32( d cis h a g f e) \appoggiatura cis'8 d4^\critnote f32( e d c h a gis a)
+		gis e dis e a8~ a32 g( f e d c h a) c'( a gis a) f( d c h) h4\trill %30
+		c32( a gis a) f( d c h) h4\trill \tempoOsanna a r8 c'
+		cis8. cis16 cis8 cis d16( e32 f g a h cis) d16 a f a
+		g8. g16 g8 g c,16( d32 e f g a h) c16 g e g
+		g,16( a32 h c d e f) g16 d h d e,32( c d e f g a h) c16 g e c'
+		d16( e32 f g a h c) d16  f, d f g,32( a h c d e f g) e8 c' %35
+		c c h h c4 c,8 c
+		a2 g\fermata \bar "|." %37 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

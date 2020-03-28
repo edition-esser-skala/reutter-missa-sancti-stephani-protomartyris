@@ -531,6 +531,31 @@ SanctusTenoreLyrics = \lyricmode {
 	cel -- sis. %22 finis
 }
 
+BenedictusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \minor \time 4/4 \autoBeamOff \tempoBenedictus
+		R1*30 %30
+		r2 \tempoOsanna r4 r8 \mvTr e\fE^\tutti
+		e8. e16 e8 e a, a r a
+		d8. d16 d8 d g, g r g
+		g g r g g g r g
+		d'8. d16 d8 d d d c c %35
+		c4( h) c c8 c
+		c2 c\fermata \bar "|." %37 finis
+	}
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+	O -- %31
+	san -- na in ex -- cel -- sis, o --
+	san -- na in ex -- cel -- sis, o --
+	san -- na, o -- san -- na, o --
+	san -- na in ex -- cel -- sis, in ex -- %35
+	cel -- sis, in ex --
+	cel -- sis. %37 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

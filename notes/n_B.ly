@@ -505,7 +505,7 @@ SanctusBassoNotes = {
 		h h r h^\critnote c c r c
 		h8. h16 h8 h h a16([ g)] c8 e16([ f)] %20
 		g4( g,) c e8 c
-		f2 c\fermata \bar "|."
+		f2 c\fermata \bar "|." %22 finis
 	}
 }
 
@@ -529,6 +529,31 @@ SanctusBassoLyrics = \lyricmode {
 	san -- na in ex -- cel -- sis, in ex -- %20
 	cel -- sis, in ex --
 	cel -- sis. %22 finis
+}
+
+BenedictusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/4 \autoBeamOff \tempoBenedictus
+		R1*30 %30
+		r2 \tempoOsanna r4 r8 \mvTr a'\fE^\tuttiE
+		g!8. g16 g8 g f f r f
+		f8. f16 f8 f e e r c
+		h h r h c c r c
+		h8. h16 h8 h h a16([ g)] c8 e16([ f)] %35
+		g4( g,) c e8 c
+		f2 c\fermata \bar "|." %37 finis
+	}
+}
+
+BenedictusBassoLyrics = \lyricmode {
+	O -- %31
+	san -- na in ex -- cel -- sis, o --
+	san -- na in ex -- cel -- sis, o --
+	san -- na, o -- san -- na, o --
+	san -- na in ex -- cel -- sis, in ex -- %35
+	cel -- sis, in ex --
+	cel -- sis. %37 finis
 }
 
 % BassoNotes = {

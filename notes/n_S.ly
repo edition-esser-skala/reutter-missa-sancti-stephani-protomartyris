@@ -523,6 +523,69 @@ SanctusSopranoLyrics = \lyricmode {
 	cel -- sis. %22 finis
 }
 
+BenedictusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \autoBeamOff \tempoBenedictus
+		R1*4
+		r2 \mvTr a'4(\pE^\solo \tuplet 3/2 8 { e'16[ d c)] } h([ a)] %5
+		gis8.([ fis16)] e8 d' c8.([ h16)] a4
+		r2 r8 c c4~
+		c8 d16 c h4. c16 h a4~
+		a8 h16([ a)] g8 g c16[ h c8]~ c16[ e32( d c h a g])
+		a16[ g a8]~ a16[ f'32( e d c h a]) h16[\trill a h8]~ h16[ d32( c h a g f]) %10
+		e8 d16 c d8. d16 c4 r
+		R1*4 %15
+		r2 c'4( \tuplet 3/2 8 { e16[ d c)] } h([ c)]
+		h8.([ a16)] g8 d' e8.[( d16)] c4
+		r2 r8 g c4~
+		c8 b16 a b8 a16 g a[ g a8] d32[( c h? d) c( h a c)]
+		h16[\trill a h8] e32([ d c e) d( c h d)] c16[\trill h \once \tieDashed c8]~ c16[ f32( e d c h a]) %20
+		gis8. fis16 e4 r8 a d4~
+		d8 c16 h c4. h16 a h4~
+		h8 a16([ gis)] a8 e' f32([ d c d) e( c h c)] d([ h a h) c( a gis a)]
+		gis8 fis16 gis \once \tieDashed a4~ a16[ d c h] h8. a16
+		a4 r r2 %25
+		R1*5 %30
+		r2 \tempoOsanna r4 r8 \mvTr c\fE^\tutti
+		cis8. cis16 cis8 cis d d r d
+		h8. h16 h8 h c c r c
+		d d r d e e r e
+		f8. f16 f8 f f f e e %35
+		e4( d) c c8 c
+		a2 g\fermata \bar "|."
+	}
+}
+
+BenedictusSopranoLyrics = \lyricmode {
+	Be -- ne -- %5
+	di -- ctus, qui ve -- nit
+	qui ve --
+	nit in no -- mi -- ne Do --
+	mi -- ni, in no --
+	_ _ %10
+	_  mi -- ne Do -- mi -- ni.
+
+	Be -- ne -- %16
+	di -- ctus, qui ve -- nit
+	in no --
+	mi -- ne, no -- mi -- ne Do -- _
+	_ _ _ %20
+	_ mi -- ni, qui ve --
+	nit in no -- mi -- ne Do --
+	mi -- ni, in no -- _
+	_ mi -- ne Do -- _ mi --
+	ni. %25
+
+	O -- %31
+	san -- na in ex -- cel -- sis, o --
+	san -- na in ex -- cel -- sis, o --
+	san -- na, o -- san -- na, o --
+	san -- na in ex -- cel -- sis, in ex -- %35
+	cel -- sis, in ex --
+	cel -- sis. %37 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
