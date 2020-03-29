@@ -324,3 +324,71 @@ BenedictusViolinoII = {
 		f2 e\fermata \bar "|." %37 finis
 	}
 }
+
+AgnusDeiViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoAgnusDei
+		r16 e8\p e e e16 r g8 g g g16
+		r g8 g g g16 r g8 g g g16
+		r c8 c c c16 r c8 h h h16
+		r h8 h h h16 r a8 a a a16
+		r a8 a a a16 r a8 a gis gis16 %5
+		r-\critnote c,8\f d e \once \tieDashed e16~ e a8 a gis h16
+		a16. c32 h16. a32 a8 gis r16 c,8\p c c c16
+		r e8 e e e16 r e8 e e e16
+		r a,8 a a a16 r c8 c c c16
+		r c8 c h h16 r e8 e e e16 %10
+		r e8 e e e16 r dis8-\critnote dis h cis16
+		r h8 h h h16 r g8\fE a h \once \tieDashed h16~
+		h e8 e dis fis16 e16.-\critnote g32 fis16. e32 e8 dis
+		e16 g8 g g g16 r gis8 gis gis gis16
+		r a8 a a a16 r dis8 dis dis dis16 %15
+		r e8 e e e16 r d8 d d d16
+		r d8^\critnote c c c16 r c8 c c c16
+		c4 h r2\fermata \bar "||"
+		\tempoDona e4 r c,8\pE d e f
+		g g, r h c e f g %20
+		c,4\fE r g''16 f e d c e d c
+		h c h a g f e f e e c c e e c c
+		g' g g, g h' h g g e e f f e e d d
+		c c d d c c h h a' a h h a a g g
+		fis fis g g fis fis e e d d fis fis e e d d %25
+		g g g, g h h g g d' d fis fis e e d d
+		g g g, g h h g g d' d c c d8 d
+		g\pE a h c d d, r fis
+		g, a h c d e fis g
+		a g c, d g h, c d %30
+		d''16\fE c h a g d e f! e e gis, gis e e gis gis
+		a a h h c c a a fis fis a a d, d fis fis
+		g! g a a h h g g e e g g c, c e e
+		fis fis g g a a fis fis dis dis fis fis h, h dis dis
+		e e fis fis g g a a h h h, h dis dis h h %35
+		e e e e g g e e a a fis fis h h h, h
+		e e e e g g e e a a a a fis fis a a
+		h h a a h h h, h e8\pE fis g a
+		h h, r dis e fis g a
+		h, cis dis e fis e-\critnote a, h %40
+		e g, a h h''16\fE a g fis e h c! d!
+		c c a a a, a a' a h h c c d d h h
+		g g h h e, e g g a a h h c c a a
+		f f a a d, d f f g g a a h h g g
+		e e g g c, c e e f f g g a a f f %45
+		d d c c h h a a g g g' g e e c c
+		g' g g, g g' g a a h h d d g, g h h
+		c c e e a, a c c d d f f h, h g g
+		c c c, c e e c c f f d d g g g, g
+		c c c' c e, e c c f f a a d, d f f %50
+		g g f f g g g, g c8\pE d e4
+		f r8 fis g4 r8 gis
+		a, h c e f d e h
+		c e f g c, e f g
+		g'16\fE f e d c g a b a a g g a a f f %55
+		d' d d, d h! h d d e e f f g g e e
+		c' c c, c a a c c d d e e f f e e
+		d d c c h h a a g g g' g h h a a
+		g g d' d h h g g c c c, c e e f f
+		g g c c g g g, g c c c' c e, e f f %60
+		g8 c g, h' c,4 r\fermata \bar "|." %61 FINIS
+	}
+}

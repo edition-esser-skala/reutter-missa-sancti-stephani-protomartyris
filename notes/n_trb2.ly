@@ -290,3 +290,53 @@ BenedictusTromboneII = {
 		c2 c\fermata \bar "|." %37 finis
 	}
 }
+
+AgnusDeiTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \tempoAgnusDei
+		R1*13 %13
+		h4.\fE h8 h4 h8 h
+		a4 a8 a a4. a8 %15
+		h4 h8 h d!4 d8 d
+		d4 c r8 c c c
+		c4 h r2\fermata \bar "||"
+		\tempoDona c4 c r2
+		R1 %20
+		c4 c r2
+		r c4. c8
+		h4 d g, g
+		g2 a
+		a a4 a~ %25
+		a8 g16 fis g4 fis fis
+		h2 a
+		g4 r r2
+		R1*2 %30
+		r2 e'
+		e d
+		d c
+		c h
+		h h4 h %35
+		h h c h
+		h h c c
+		h2 h4 r
+		R1*3 %41
+		f'!2. f4
+		e2 e
+		d d
+		c c %45
+		d4 d d e
+		e d r h8 d
+		e2. d4
+		d c c h
+		e2 d %50
+		d c4 r
+		R1*4 %55
+		d2 g,
+		c4 c f,2
+		f4 d'8 c h2~
+		h4 h g g
+		g2 g %60
+		g g4 r\fermata \bar "|." %61 FINIS
+	}
+}

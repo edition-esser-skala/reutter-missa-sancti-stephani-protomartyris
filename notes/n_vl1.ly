@@ -353,10 +353,70 @@ BenedictusViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-%
-%
-% 	}
-% }
+AgnusDeiViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoAgnusDei
+		r16 c'8\p c c c16 r d8 d d d16
+		r f8 f f f16 r e8 e e e16
+		r es8 es es es16 r es8 d d d16
+		r d8 d d d16 r c8 c c c16
+		r c8 c c c16 r h8 h h h16 %5
+		r a8\f h c \once \tieDashed cis16~ cis d8 dis e gis16
+		a16. e32 d16. c32 c8 h\trill r16 a8\p a a a16
+		r h8 h h h16 r a8 a a a16
+		r a8 a a a16 r a8 a a a16
+		r a8 a gis gis16 r gis8 gis gis gis16 %10
+		r a8 a a a16 r fis8 fis e e16
+		r e8 e dis dis16 r e8\fE fis g gis16~
+		gis a8 ais h dis16 e16. h32 a16. g32 g8 fis
+		e16 e'8 e e e16 r f!8 f f f16
+		r e8 e e e16 r fis8 fis fis fis16 %15
+		r h8 h h h16 r h8 h h h16
+		r h8 a a a16 r a8 a a a16
+		a4 gis r2\fermata \bar "||"
+		\tempoDona c4 r g16\pE f e d c e d c
+		h c h a g a g f e g c c, d8 h' %20
+		c4\fE c, g''16 f e d c e d c
+		h c h a g f e f e e c c e e c c
+		g' g g, g h' h g g e e f f e e d d
+		c c d d c c h h a' a h h a a g g
+		fis fis g g fis fis e e d d fis fis e e d d %25
+		g g g, g h h g g d' d fis fis e e d d
+		g g g, g h h g g d' d c c d8 d
+		d''16\pE c h a g h a g fis g fis e d c h c
+		\tuplet 3/2 8 { h[ c d] c d e d[ e fis] e fis g fis[ g a] g a h a[ h c] h c d }
+		\tuplet 3/2 8 { c[ h a] h a g } a4\trillE \tuplet 3/2 8 { h16[ a g] } d' g, a4\trillE %30
+		d16\f c h a g d e f! e e gis, gis e e gis gis
+		a a h h c c a a fis fis a a d, d fis fis
+		g! g a a h h g g e e g g c, c e e
+		fis fis g g a a fis fis dis dis fis fis h, h dis dis
+		e e fis fis g g a a h h h, h dis dis h h %35
+		e e e e g g e e a a fis fis h h h, h
+		e e e e g g e e a a a a fis fis a a
+		h h a a h h h, h h''\pE a g fis e g fis e
+		dis e fis dis h a g a \tuplet 3/2 8 { g[ a h] a h c h[ cis dis] cis dis e }
+		\tuplet 3/2 8 { dis[ e fis] e fis g fis[ g a] g a h a[ g fis] g fis e } fis4\trill %40
+		\tuplet 3/2 8 { g16[ fis e] } h' e, fis4\trill h16\fE a g fis e h c! d!
+		c c a a a, a a' a h h c c d d h h
+		g g h h e, e g g a a h h c c a a
+		f f a a d, d f f g g a a h h g g
+		e e g g c, c e e f f g g a a f f %45
+		d d c c h h a a g g g' g e e c c
+		g' g g, g g' g a a h h d d g, g h h
+		c c e e a, a c c d d f f h, h g g
+		c c c, c e e c c f f d d g g g, g
+		c c c' c e, e c c f f a a d, d f f %50
+		g g f f g g g, g g''\pE f e d c b a b
+		a' g f e d c h c h' a g f e d c d
+		\tuplet 3/2 8 { c[ d e] d e f e[ f g] g, a b a[ h c] h c d c[ d e] d e f }
+		\tuplet 3/2 8 { e[ d c] } g' c, d4\trill \tuplet 3/2 8 { e16[ d c] } c' c, d4\trill
+		g16\fE f e d c g a b a a g g a a f f %55
+		d' d d, d h! h d d e e f f g g e e
+		c' c c, c a a c c d d e e f f e e
+		d d c c h h a a g g g' g h h a a
+		g g d' d h h g g c c c, c e e f f
+		g g c c g g g, g c c c' c e, e f f %60
+		g8 c g, h' c,4 r\fermata \bar "|." %61 FINIS
+	}
+}

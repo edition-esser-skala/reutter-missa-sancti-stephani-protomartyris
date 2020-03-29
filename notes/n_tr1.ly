@@ -215,3 +215,35 @@ BenedictusTrombaI = {
 		c2 c\fermata \bar "|." %37 finis
 	}
 }
+
+AgnusDeiTrombaI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoAgnusDei
+		R1*17 %17
+		R1\fermataMarkup \bar "||"
+		\tempoDona g''8.\fE g16 g4 r2
+		R1 %20
+		g8. g16 g4 r2
+		R1
+		g4. g8 g4 r
+		c, r c r
+		R1 %25
+		g'4 r r2
+		g4 r r2
+		R1*18 %45
+		r4 g g8 g16 g g8 g
+		g4 g r2
+		R1
+		r2 r4 g8. g16
+		g4 r r2 %50
+		r4 d8. d16 c4 r
+		R1*3
+		e4 r r2 %55
+		R1*2
+		r4 g g8 g16 g g8 g
+		g4 g8 g16 g g4 r
+		r g8. g16 g8 g16 g g8 g %60
+		g16 f e f d8. d16 c4 r\fermata \bar "|." %61 FINIS
+	}
+}

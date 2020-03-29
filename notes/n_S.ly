@@ -586,13 +586,101 @@ BenedictusSopranoLyrics = \lyricmode {
 	cel -- sis. %37 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% SopranoLyrics = \lyricmode {
-%
-% }
+AgnusDeiSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoAgnusDei
+		R1*13 %13
+		\mvTr g'4.-\fE^\tutti g8 gis4 gis8 gis
+		a4 a8 a dis4. dis8 %15
+		e4 e8 h h4 h8 h
+		h4 a r8 a a a
+		a4 gis r2\fermata \bar "||"
+		\tempoDona \mvTr e'4 e r2
+		R1 %20
+		e4 e c4. c8
+		h4 d d8([ c16 h] c8) e
+		d4 g, c2
+		c c
+		c c %25
+		h a2~
+		a4 g g( fis)
+		g r r2
+		R1*2 %30
+		d'2 d
+		c c
+		h h
+		a a
+		g fis4 r %35
+		g'2 fis~
+		fis4 e2 e4
+		e( dis) e r
+		R1*2 %40
+		r2 e~
+		e4 e d2~
+		d c4 c~
+		c2 h
+		h4 h a2 %45
+		h h4 c
+		c h d2~
+		d4 c8[( e]) f2
+		e d~
+		d4 c c c %50
+		c( h) c r
+		R1*3
+		r4 g'2 f4~ %55
+		f f2 e4~
+		e e2 d4
+		d d d2
+		d4 d2 c4
+		c( h) c c~ %60
+		c h c r\fermata \bar "|." %61 FINIS
+	}
+}
+
+AgnusDeiSopranoLyrics = \lyricmode {
+	A -- gnus De -- i, qui %14
+	tol -- lis pec -- ca -- ta %15
+	mun -- di, pec -- ca -- ta, pec --
+	ca -- ta, pec -- ca -- ta
+	mun -- di:
+	Do -- na,
+	%20
+	do -- na no -- bis,
+	no -- bis pa -- cem,
+	pa -- cem, do --
+	na no --
+	bis pa -- %25
+	cem, no --
+	bis pa --
+	cem.
+
+	Do -- na %31
+	no -- bis
+	pa -- cem,
+	no -- bis
+	pa -- cem, %35
+	do -- na __
+	no -- bis
+	pa -- cem.
+
+	Do -- %41
+	na no --
+	bis pa --
+	cem,
+	do -- na no -- %45
+	bis pa -- cem,
+	pa -- cem, do --
+	na no --
+	bis pa --
+	cem, no -- bis %50
+	pa -- cem.
+
+	Do -- na __ %55
+	no -- bis __
+	pa -- cem,
+	do -- na no --
+	bis pa -- cem,
+	pa -- cem, pa -- %60
+	_ cem. %61 FINIS
+}

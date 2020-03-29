@@ -187,3 +187,35 @@ BenedictusTimpani = {
 		r4 g8 g c c16 c c4\fermata \bar "|." %37 finis
 	}
 }
+
+AgnusDeiTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoAgnusDei
+		R1*17 %17
+		R1\fermataMarkup \bar "||"
+		c8\fE c16 c c4 r2
+		R1 %20
+		c8. c16 c4 r2
+		R1
+		g8 g16 g g8 g c4 r
+		c r c r
+		R1 %25
+		g4 r r2
+		g4 r r2
+		R1*18 %45
+		r4 g g8 g16 g c8 c
+		c c16 c g4 r2
+		R1
+		r2 r4 g8 g16 g
+		c4 r r2 %50
+		c8 c16 c g8 g c4 r
+		R1*3
+		c4 r r2 %55
+		R1*2
+		r4 g g8 g16 g g8 g
+		g g16 g g8 g c4 r
+		r g8 g16 g c8 c16 c c8 c %60
+		c c16 c g8 g c4 r\fermata \bar "|." %61 FINIS
+	}
+}

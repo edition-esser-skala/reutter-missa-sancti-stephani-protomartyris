@@ -556,13 +556,111 @@ BenedictusTenoreLyrics = \lyricmode {
 	cel -- sis. %37 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-%
-% 	}
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+AgnusDeiTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoAgnusDei
+		R1*6 %6
+		r2 \mvTr e4.\pE^\solo c8
+		h8.([ a16)] h8 e cis4 cis8 cis
+		d8.([ cis16)] d4 r8 dis dis dis
+		e4 e, h'4. h8 %10
+		\appoggiatura h c8.([ h16)] a4 a8 a g g
+		g4( fis) e r
+		R1
+		\mvTr h'4.\fE^\tutti h8 h4 h8 h
+		a4 a8 a a4. a8 %15
+		h4 h8 h d!4 d8 d
+		d4 c r8 c c c
+		c4 h r2\fermata \bar "||"
+		\tempoDona c4 c r2
+		R1 %20
+		c4 c r2
+		r c4. c8
+		h4 d g, g
+		g2 a
+		a a4 a~ %25
+		a8 g16([ fis]) g4( fis) fis
+		h2( a)
+		g4 r r2
+		R1*2 %30
+		r2 e'
+		e d
+		d c
+		c h
+		h h4 h %35
+		h h c h
+		h h c c
+		h2 h4 r
+		R1*3 %41
+		f'!2. f4
+		e2 e
+		d d
+		c c %45
+		d4 d d e
+		e d r h8 d
+		e2. d4
+		d c c h
+		e2 d %50
+		d c4 r
+		R1*4 %55
+		d2 g,
+		c4 c f,2
+		f4 d'8 c h2~
+		h4 h g g
+		g2 g %60
+		g g4 r\fermata \bar "|." %61 FINIS
+	}
+}
+
+AgnusDeiTenoreLyrics = \lyricmode {
+	A -- gnus %7
+	De -- i, qui tol -- lis pec --
+	ca -- ta, pec -- ca -- ta
+	mun -- di: Mi -- se -- %10
+	re -- re, mi -- se -- re -- re
+	no -- bis.
+
+	A -- gnus De -- i, qui
+	tol -- lis pec -- ca -- ta %15
+	mun -- di, pec -- ca -- ta, pec --
+	ca -- ta, pec -- ca -- ta
+	mun -- di:
+	Do -- na,
+	%20
+	do -- na,
+	do -- na
+	no -- bis pa -- cem,
+	pa -- cem,
+	do -- na no -- %25
+	bis pa -- cem,
+	pa --
+	cem.
+
+	Do -- %31
+	na no --
+	bis pa --
+	cem, pa --
+	cem, no -- bis %35
+	pa -- cem, no -- bis
+	pa -- cem, no -- bis
+	pa -- cem.
+
+	Do -- na %42
+	no -- bis
+	pa -- cem,
+	no -- bis %45
+	pa -- cem, no -- bis
+	pa -- cem, do -- na
+	no -- bis
+	pa -- cem, no -- bis
+	pa -- cem, %50
+	pa -- cem.
+
+	Do -- na %56
+	no -- bis pa --
+	cem, do -- na no -- bis
+	pa -- cem,
+	pa -- cem, %60
+	pa -- cem. %61 FINIS
+}

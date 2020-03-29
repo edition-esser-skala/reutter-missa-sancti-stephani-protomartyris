@@ -45,7 +45,7 @@ KyrieBassoNotes = {
 		a( g) g g %40
 		g( g,) c e8([ f)]
 		g4( g,) c e8([ f)]
-		g4( g,) c r\fermata \bar "|."
+		g4( g,) c r\fermata \bar "|." %43 finis
 	}
 }
 
@@ -556,13 +556,112 @@ BenedictusBassoLyrics = \lyricmode {
 	cel -- sis. %37 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassoLyrics = \lyricmode {
-%
-% }
+AgnusDeiBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoAgnusDei
+		\mvTr c'4.\pE^\solo c,8 g'4 g8 g
+		d'4 h,8 h c4 c8 c'
+		fis,4. fis8 g4 g,
+		f' gis, a8.([ gis16)] a4
+		a'8 c dis, dis e2 %5
+		a,4 r r2
+		R1*7 %13
+		\mvTr e'4.\fE^\tuttiE e8 d!4 d8 d
+		c4 c8 c c4. c8 %15
+		g4 g8 g gis4 gis8 gis
+		a4 a r8 f' f f
+		e4 e, r2\fermata \bar "||"
+		\tempoDona c''4 c,4 r2
+		R1 %20
+		c'4 c, r2
+		R1
+		g'4. g8 e4. d8
+		c4. h8 a4. g8
+		fis4 fis'8[ e] d4 r %25
+		g4. g,8 d'4. d8
+		g[ g, h g] d'2
+		g,4 r r2
+		R1*2 %30
+		r2 r4 h'~
+		h a2 a4~
+		a g2 g4~
+		g fis2 h,8 dis
+		e[( fis)] g([ a]) h4 h, %35
+		e8 e g e a([ fis] h4)
+		e,8 e[ g e] a4 fis8[ a]
+		h4 h, e r
+		R1*3 %41
+		r2 h'
+		h a
+		a g
+		g f4 f %45
+		d8([ c)] h([ a)] g([ g' e)] c
+		g'4 g, r8 h'[ g h]
+		c4 a8[ c] d4 h8[ g]
+		c c,[ e c] f[ d] g4
+		c8 c,[ e c] f4 d8[ f] %50
+		g4 g, c r
+		R1*3
+		r2 r4 c' %55
+		h2 h
+		a \once \tieDashed a~
+		a4 g g2
+		g4 h,8 g c4 e8[ f]
+		g4 g, c e8[ f] %60
+		g4 g, c r\fermata \bar "|." %61 FINIS
+	}
+}
+
+AgnusDeiBassoLyrics = \lyricmode {
+	A -- gnus De -- i, qui
+	tol -- lis pec -- ca -- ta, pec --
+	ca -- ta mun -- di:
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re no -- %5
+	bis.
+
+	A -- gnus De -- i, qui
+	tol -- lis pec -- ca -- ta %15
+	mun -- di, pec -- ca -- ta, pec --
+	ca -- ta, pec -- ca -- ta
+	mun -- di:
+	Do -- na,
+	%20
+	do -- na,
+
+	do -- na no -- bis
+	pa -- _ _ _
+	_ _ cem, %25
+	do -- na no -- bis
+	pa -- _
+	cem.
+
+	Do -- %31
+	na no --
+	bis pa --
+	cem, do -- na
+	no -- bis pa -- cem, %35
+	do -- na no -- bis pa --
+	cem, pa -- _ _
+	_ _ cem.
+
+	Do -- %42
+	na no --
+	bis pa --
+	cem, do -- na %45
+	no -- bis pa -- cem,
+	pa -- cem, pa --
+	_ _ _ _
+	cem, pa -- _ _
+	cem, pa -- _ _ %50
+	_ _ cem.
+
+	Do -- %55
+	na no --
+	bis pa --
+	cem, do --
+	na no -- bis pa -- _
+	_ _ cem, pa -- %60
+	_ _ cem. %61 FINIS
+}
