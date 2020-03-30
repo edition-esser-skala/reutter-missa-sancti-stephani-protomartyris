@@ -5,7 +5,7 @@
 
 # change the following variables according to your project
 project = Reutter_Missa_Sancti_Stephani
-zipname = Reutter_Missa_Sancti_StephaniEngraving_Files
+zipname = Reutter_Missa_Sancti_Stephani_Engraving_Files
 notes = tr1 tr2 trb1 trb2 timp vl1 vl2 S A T B org
 parts = ottoni trb1 trb2 vl1 vl2 coro b org
 movements = missa
