@@ -4,11 +4,11 @@
 
 
 # change the following variables according to your project
-project = Rosetti_Der_sterbende_Jesus_MurR_G1
-zipname = Rosetti_Der_sterbende_Jesus_MurR_G1Engraving_Files
-notes = fl ob1 ob2 fag cor1 cor2 tr1 tr2 timp vl1 vl2 vla Maria Joseph Joannes Jesus S A T B org
-parts =
-movements = part1 part2 part3
+project = Reutter_Missa_Sancti_Stephani
+zipname = Reutter_Missa_Sancti_StephaniEngraving_Files
+notes = tr1 tr2 trb1 trb2 timp vl1 vl2 S A T B org
+parts = ottoni trb1 trb2 vl1 vl2 coro b org
+movements = missa
 
 
 .DEFAULT_GOAL := info
