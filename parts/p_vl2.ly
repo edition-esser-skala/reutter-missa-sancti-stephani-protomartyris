@@ -54,7 +54,7 @@
 		\paper { page-count = #2 }
 		\score {
 			<<
-				\new Staff { \KyrieViolinoI }
+				\new Staff { \KyrieViolinoII }
 			>>
 		}
 	}
@@ -64,7 +64,7 @@
 		}
 		\score {
 			<<
-				\new Staff { \GloriaViolinoI }
+				\new Staff { \GloriaViolinoII }
 			>>
 		}
 	}
@@ -74,7 +74,7 @@
 		}
 		\score {
 			<<
-				\new Staff { \CredoViolinoI }
+				\new Staff { \CredoViolinoII }
 			>>
 		}
 	}
@@ -85,7 +85,7 @@
 		\paper { systems-per-page = #8 }
 		\score {
 			<<
-				\new Staff { \SanctusViolinoI }
+				\new Staff { \SanctusViolinoII }
 			>>
 		}
 	}
@@ -93,9 +93,10 @@
 		\header {
 			movement = \movementTitle "5" "B E N E D I C T U S"
 		}
+		\paper { systems-per-page = #4 }
 		\score {
 			<<
-				\new Staff { \BenedictusViolinoI }
+				\new Staff { \BenedictusViolinoII }
 			>>
 		}
 	}
@@ -105,7 +106,7 @@
 		}
 		\score {
 			<<
-				\new Staff { \AgnusDeiViolinoI }
+				\new Staff { \AgnusDeiViolinoII }
 			>>
 		}
 	}
