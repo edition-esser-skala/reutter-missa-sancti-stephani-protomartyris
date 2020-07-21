@@ -64,7 +64,7 @@
 		\paper { page-count = #3 }
 		\score {
 			<<
-				\new Staff { \GloriaOrgano }
+				\new Staff << \GloriaViolone >>
 			>>
 		}
 	}

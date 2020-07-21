@@ -187,32 +187,63 @@ GloriaViolone = {
 		c16 c' g8 g, \noBreak
 		c4 r8\fermata \bar "||"
 		\key c \dorian \time 4/4 \tempoQuiTollis \newSpacingSection
-			c8\fE c c' c h h h h \noBreak
-		c c c, c g' g g g
-		c, c c c f f f f
-		g c,16. f32 g8 g, c4 r
-		r2 c8 c c' c
-		h h h h c4 r
-		R1*2 %100
-		es,8 es es es b b b b
-		es es es es as, as as as
-		b es16. as32 b8 b, es4 r
-		r2 es8 es es es
-		d d d d es4 r %105
-		R1*2
-		r2 f8 f f, f
-		c' c c c f f f, f
-		b b b b c f,16. b32 c8 c,
-		f4 r r2
-		R1
-		r4 g8 g c c c c
-		f, f f f g4 r
-		R1*2 %116
-		c8 c c' c h h h h
-		c c c, c g' g g, g
-		c c c c f f f f
-		g c,16. f32 g8 g, es' f g g, \noBreak %120
-		c4 r r2\fermata \bar "||"
+		<< {
+			\mvDll c8\fE^\vlne c c' c \oneVoice h h h h \noBreak
+			c c c, c g' g g g
+			c, c c c f f f f %95
+			g c,16. f32 g8 g, \voiceOne c4 r
+			r2 c8^\vlne c c' c
+			h h h h c4 r
+			\once \override MultiMeasureRest.staff-position = #7 R1
+			R %100
+			es,8^\vlne es es es \oneVoice b b b b
+			es es es es as, as as as
+			b es16. as32 b8 b, \voiceOne es4 r
+			r2 es8^\vlne es es es
+			d d d d es4 r %105
+			\once \override MultiMeasureRest.staff-position = #7 R1
+			R
+			r2 f8^\vlne f f, f
+			\oneVoice c' c c c f f f, f
+			b b b b c f,16. b32 c8 c, %110
+			\voiceOne f4 r r2
+			R1
+			r4 g8^\vlne g c c c c
+			f, f f f g4 r
+			R1*2 %116
+			c8^\vlne c c' c h h h h
+			\oneVoice c c c, c g' g g, g
+			c c c c f f f f
+			g c,16. f32 g8 g, \voiceOne es'^\vlne f g g, \noBreak %120
+			c4 \oneVoice r r2\fermata
+		} \\ {
+			\tiny c4_\org s2.
+			s1*2 %95
+			s2 \mvTr c8\pE_\org c c c
+			h h h h c c c c
+			r2 c8_\org c c c
+			g' g e e f f b,! b
+			es es as, as b b b b %100
+			es4 r s2
+			s1
+			s2 es8_\org es es es
+			d d d d es es es es
+			r2 es8_\org es es es %105
+			e e e e f f f, f
+			b b b b b b h h
+			c c c c f,4 r
+			s1*2 %110
+			f8_\org f f' f d d es! es
+			c c d d h h c c
+			g g g4 r2
+			r g8_\org g h h
+			c c c c c c c c %115
+			h h c c g g g g
+			c4 r s2
+			s1*2
+			s2 \mvTr es8\fE_\org f g g, %120
+			c4 s2.
+		} >> \bar "||"
 		\key c \major \time 3/8 \tempoQuoniam \newSpacingSection
 			c8\fE c' g \noBreak
 		e c g'
