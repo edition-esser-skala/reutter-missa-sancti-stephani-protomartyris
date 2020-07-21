@@ -17,7 +17,7 @@ TromboneIIIncipit = \markup {
 
 KyrieTromboneII = {
 	\relative c' {
-		\clef "treble_8"
+		\clef tenor
 		\key c \major \time 4/4 \tempoKyrie
 		c8.\fE c16 c4 r2
 		R1
@@ -61,7 +61,7 @@ KyrieTromboneII = {
 
 GloriaTromboneII = {
 	\relative c' {
-		\clef "treble_8"
+		\clef tenor
 		\key c \major \time 3/8 \tempoGloria
 		c8.\fE c16 c8
 		c8. c16 c8
@@ -98,7 +98,7 @@ GloriaTromboneII = {
 		c4 r8
 		R4.*7 \noBreak %91
 		R4.\fermataMarkup \bar "||"
-		\clef treble \key c \dorian \time 4/4 \tempoQuiTollis
+		\clef tenor \key c \dorian \time 4/4 \tempoQuiTollis
 			es4\fE es16 c d es f( es) f-! f-! f8 es16 d \noBreak
 		d8 c r16 c d c c h h8 r16 d es d
 		d c c8 r16 c d es f( es) es( d) d( c) h( c) %95
@@ -125,7 +125,7 @@ GloriaTromboneII = {
 		d\trill c c8 r16 c d es f( es) es( d) d( c) c( h)
 		h16. h32 c16. d32 c8 h es16. es32 d16. c32 c8 h \noBreak %120
 		c4 r r2\fermata \bar "||"
-		\clef "treble_8" \key c \major \time 3/8 \tempoQuoniam
+		\clef tenor \key c \major \time 3/8 \tempoQuoniam
 			c8.\fE c16 c8 \noBreak
 		c8 c h
 		c c r
@@ -180,7 +180,7 @@ GloriaTromboneII = {
 
 CredoTromboneII = {
 	\relative c' {
-		\clef "treble_8"
+		\clef tenor
 		\key c \major \time 4/4 \tempoCredo
 		r4 r8 g\fE g g d' c16 h
 		c8 c r4 c8 c c c
@@ -251,7 +251,7 @@ CredoTromboneII = {
 
 SanctusTromboneII = {
 	\relative c' {
-		\clef "treble_8"
+		\clef tenor
 		\key c \major \time 4/4 \tempoSanctus
 		R1*2
 		r4 c4.\fE d16 a h4
@@ -278,7 +278,7 @@ SanctusTromboneII = {
 
 BenedictusTromboneII = {
 	\relative c' {
-		\clef "treble_8"
+		\clef tenor
 		\key a \minor \time 4/4 \tempoBenedictus
 		R1*30 %30
 		r2 \tempoOsanna r4 r8 e\fE
@@ -293,7 +293,7 @@ BenedictusTromboneII = {
 
 AgnusDeiTromboneII = {
 	\relative c' {
-		\clef "treble_8"
+		\clef tenor
 		\key c \major \time 4/4 \tempoAgnusDei
 		R1*13 %13
 		h4.\fE h8 h4 h8 h
