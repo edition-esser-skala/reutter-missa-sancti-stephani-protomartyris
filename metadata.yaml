@@ -1,17 +1,21 @@
-composer: Reutter der Jüngere, Georg
+composer:
+  last: Reutter
+  suffix: der Jüngere
+  first: Georg
 title: Missa Sancti Stephani Protomartyris
 id: HofR 25/47
 genre: mass
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), 2 trb, timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  B1:
     siglum: A-Ed
     shelfmark: A 87
-    type: manuscript copy
-    date: unknown
     rism: 600037886
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/737.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/737.html
+    license: public domain
+    principal: true
+    notes: 2nd page of timp missing in digital version
 github: reutter-missa-sancti-stephani-protomartyris
-imslp: Missa_Sancti_Stephani_Protomartyris_(Reutter%2C_Georg)
-notes: 2nd page of timp missing in digital version at A-Ed
-
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
